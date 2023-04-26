@@ -3,9 +3,42 @@
     padding: 0;
 }
 
-body{
-  
-    display:flex;
-    background: purple;
+.cabecalho{
+    display: flex;
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
+    justify-content: space-around;
+    align-items: center;
+}
+.cabecalho-lista__item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
 
+}
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+.escola{
+    background-image: linear-gradient(#424e61, #16CFF8);
+    color: rgb(156, 6, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+    
+}
+.Cardapio{
+    background-color: rgb(255, 217, 0);
+}
+.cardapio-imagem{
+    width: 10%;
 }
